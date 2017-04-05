@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="119" id="KGk-i7-Jjw" customClass="sendMsgTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXh-Kv-Qv3">
+                        <rect key="frame" x="10" y="10" width="37" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="oe7-4L-c6A"/>
+                            <constraint firstAttribute="width" constant="37" id="xdz-jg-ZfI"/>
+                        </constraints>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <state key="normal" backgroundImage="message_qs_btn_unsec">
+                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" backgroundImage="message_btn_sec"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单号：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msc-6p-OV5">
+                        <rect key="frame" x="47" y="14" width="65" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="13U-QA-jg8"/>
+                            <constraint firstAttribute="width" constant="65" id="a1x-gG-5DK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123456789" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGG-3b-38m">
+                        <rect key="frame" x="120" y="14" width="184" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="Icb-Qd-mNK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收件地址：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CiY-nY-ASN">
+                        <rect key="frame" x="47" y="39" width="80" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="6XL-bH-flc"/>
+                            <constraint firstAttribute="height" constant="21" id="X9M-bU-hbv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="收件人：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sef-zq-ABs">
+                        <rect key="frame" x="45" y="89" width="86" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="长江贸易大楼" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISQ-Lp-2wh">
+                        <rect key="frame" x="124" y="49" width="169" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="达人一号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFY-rt-YvH">
+                        <rect key="frame" x="124" y="88" width="109" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="msc-6p-OV5" firstAttribute="centerY" secondItem="TXh-Kv-Qv3" secondAttribute="centerY" id="Cpb-11-dA5"/>
+                    <constraint firstItem="CiY-nY-ASN" firstAttribute="top" secondItem="msc-6p-OV5" secondAttribute="bottom" constant="5" id="Fm1-kc-Vwm"/>
+                    <constraint firstItem="TXh-Kv-Qv3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ITR-b8-fQ8"/>
+                    <constraint firstItem="GGG-3b-38m" firstAttribute="leading" secondItem="msc-6p-OV5" secondAttribute="trailing" constant="8" id="KIy-aU-274"/>
+                    <constraint firstItem="msc-6p-OV5" firstAttribute="leading" secondItem="TXh-Kv-Qv3" secondAttribute="trailing" id="Us1-JX-k3c"/>
+                    <constraint firstItem="TXh-Kv-Qv3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Zfc-eg-bxQ"/>
+                    <constraint firstItem="CiY-nY-ASN" firstAttribute="leading" secondItem="msc-6p-OV5" secondAttribute="leading" id="fVR-xk-qTs"/>
+                    <constraint firstAttribute="trailing" secondItem="GGG-3b-38m" secondAttribute="trailing" constant="16" id="fcz-cP-91N"/>
+                    <constraint firstItem="GGG-3b-38m" firstAttribute="centerY" secondItem="msc-6p-OV5" secondAttribute="centerY" constant="1" id="vaU-rQ-lKg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="adressLabel" destination="ISQ-Lp-2wh" id="0yW-vC-Wak"/>
+                <outlet property="dingwei" destination="CiY-nY-ASN" id="PRs-4G-1K3"/>
+                <outlet property="orderLabel" destination="GGG-3b-38m" id="DJf-JT-HsS"/>
+                <outlet property="receiveLabel" destination="PFY-rt-YvH" id="oTP-mc-91c"/>
+                <outlet property="selectBtn" destination="TXh-Kv-Qv3" id="erI-1i-fE8"/>
+                <outlet property="shoujianren" destination="sef-zq-ABs" id="fWj-zy-b4h"/>
+            </connections>
+            <point key="canvasLocation" x="50" y="91.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="message_btn_sec" width="68" height="50"/>
+        <image name="message_qs_btn_unsec" width="68" height="50"/>
+    </resources>
+</document>

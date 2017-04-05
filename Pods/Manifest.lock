@@ -1,0 +1,67 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.0.0)
+  - IQKeyboardManager (4.0.7)
+  - JPush (3.0.0)
+  - JSONModel (1.2.0)
+  - MJRefresh (3.1.12)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDAutoLayout (2.0.0)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - TesseractOCRiOS (4.0.0)
+  - UMengAnalytics (4.0.4)
+  - UMengSocialCOM (5.2.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BaiduMapKit (~> 3.0.0)
+  - IQKeyboardManager (~> 4.0.7)
+  - JPush (~> 3.0.0)
+  - JSONModel (~> 1.2.0)
+  - MJRefresh (~> 3.1.12)
+  - ReactiveCocoa (~> 2.5)
+  - SDAutoLayout (~> 2.0.0)
+  - SDWebImage (~> 3.7.6)
+  - TesseractOCRiOS (~> 4.0.0)
+  - UMengAnalytics (~> 4.0.4)
+  - UMengSocialCOM (~> 5.2.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  JPush: 042699376efe1d511ef32e0ef1a41deb1b6da123
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDAutoLayout: ae98d238e4721c1566abec57bcb2fa1fbe62a0df
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
+  UMengAnalytics: 4ed421fb3bca63b26fc13c947743cabf3831d199
+  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
+
+PODFILE CHECKSUM: 8d9407ceeb3af0306770e3ecd9a48c3521912923
+
+COCOAPODS: 1.2.0

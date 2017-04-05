@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="approveComplVController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn_支付预付款" translatesAutoresizingMaskIntoConstraints="NO" id="PCW-s8-1mx">
+                    <rect key="frame" x="225" y="50" width="150" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="MLk-Zu-BIU"/>
+                        <constraint firstAttribute="width" constant="150" id="Pjw-9B-BZU"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujW-1m-Zpz">
+                    <rect key="frame" x="315" y="520" width="245" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Xam-Ao-fY2"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_支付预付款.png"/>
+                    <connections>
+                        <action selector="goAlipay:" destination="-1" eventType="touchUpInside" id="IbC-hl-jeK"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的申请已提交,我们将会在五个工作日内审核" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZ4-we-PwU">
+                    <rect key="frame" x="20" y="195" width="560" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="JCl-qh-csS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6w-Qe-2o5">
+                    <rect key="frame" x="20" y="255" width="560" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="OOw-a3-LgX"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="您也可以去 &quot;">
+                            <attributes>
+                                <color key="NSColor" red="0.54901960780000003" green="0.54901960780000003" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="我的→预付款认证">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="&quot;,选择提交300元预付款,">
+                            <attributes>
+                                <color key="NSColor" red="0.54901960780000003" green="0.54901960780000003" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="提高您的分配单量">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPc-zX-wFc">
+                    <rect key="frame" x="40" y="520" width="245" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="eaD-3E-QiV"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn完成.png"/>
+                    <connections>
+                        <action selector="commpeletClick:" destination="-1" eventType="touchUpInside" id="MKC-qm-iMw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ujW-1m-Zpz" secondAttribute="bottom" constant="107" id="5Jd-0O-wXh"/>
+                <constraint firstItem="s6w-Qe-2o5" firstAttribute="top" secondItem="WZ4-we-PwU" secondAttribute="bottom" constant="10" id="Aiw-80-BRa"/>
+                <constraint firstItem="ujW-1m-Zpz" firstAttribute="leading" secondItem="rPc-zX-wFc" secondAttribute="trailing" constant="30" id="PR7-Y8-6bd"/>
+                <constraint firstItem="WZ4-we-PwU" firstAttribute="top" secondItem="PCW-s8-1mx" secondAttribute="bottom" constant="45" id="Rs6-GR-ZgN"/>
+                <constraint firstItem="s6w-Qe-2o5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="SXR-m5-g2C"/>
+                <constraint firstItem="rPc-zX-wFc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="iz4-1P-koL"/>
+                <constraint firstAttribute="trailing" secondItem="s6w-Qe-2o5" secondAttribute="trailing" constant="-205" id="lQH-67-nXk"/>
+                <constraint firstAttribute="trailing" secondItem="WZ4-we-PwU" secondAttribute="trailing" constant="-205" id="nfD-5Y-sJb"/>
+                <constraint firstAttribute="bottom" secondItem="rPc-zX-wFc" secondAttribute="bottom" constant="107" id="ozP-aK-Hcx"/>
+                <constraint firstItem="WZ4-we-PwU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="rx6-7O-Psx"/>
+                <constraint firstItem="rPc-zX-wFc" firstAttribute="width" secondItem="ujW-1m-Zpz" secondAttribute="width" id="s7C-5a-2J7"/>
+                <constraint firstAttribute="trailing" secondItem="ujW-1m-Zpz" secondAttribute="trailing" constant="-185" id="sju-X8-M0P"/>
+                <constraint firstItem="PCW-s8-1mx" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="112.5" id="tOX-mv-mGa"/>
+                <constraint firstItem="PCW-s8-1mx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="vDK-1l-wCn"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_支付预付款" width="35" height="35"/>
+        <image name="btn_支付预付款.png" width="280" height="86"/>
+        <image name="btn完成.png" width="280" height="86"/>
+    </resources>
+</document>
