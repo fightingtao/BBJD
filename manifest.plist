@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://eoas-file.oss-cn-beijing.aliyuncs.com/eoas/1512704211501.ipa?Expires=1828064219&OSSAccessKeyId=LTAIlF9tDP8MBRme&Signature=0rxBpuH%2F13nCzxu2IpU%2FYtAnWxQ%3D</string>
+					<string>https://eoas-file.oss-cn-beijing.aliyuncs.com/eoas/1512704211501.ipa?Expires=1828064219&amp;OSSAccessKeyId=LTAIlF9tDP8MBRme&amp;Signature=0rxBpuH%2F13nCzxu2IpU%2FYtAnWxQ%3D</string>
 				</dict>
 				<dict>
 					<key>kind</key>
